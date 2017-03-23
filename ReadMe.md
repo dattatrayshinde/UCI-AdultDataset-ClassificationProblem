@@ -27,4 +27,4 @@ Data set attribute information:
 Project Report & Notebooks
 --------------------------
 
--   [Final Project Report](https://github.com/dattatrayshinde/UCI-AdultDataset-Classification/blob/master/Project%20Report%20Final.pdf)
+-   [Final Project Report](https://github.com/dattatrayshinde/UCI-AdultDataset-ClassificationProblem/blob/master/Project%20Report%20Final.pdf)
