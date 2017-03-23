@@ -16,4 +16,7 @@ tree.perf = performance(tree.pred, "tpr", "fpr")
 
 # Confusion Matrix
 confusionMatrix(x_test$income, predict(tree.fit, newdata=x_test, type="class"))
-
+#Calculate the AUC value
+perf_AUC=performance(tree.pred,"auc") 
+AUC=perf_AUC@y.values[[1]]
+AUC

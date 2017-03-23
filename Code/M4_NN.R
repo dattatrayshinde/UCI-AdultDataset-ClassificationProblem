@@ -17,3 +17,7 @@ table(x_test$income, predict(nnet.fit, newdata=x_test, type="class"))
 caret::confusionMatrix(x_test$income, predict(nnet.fit, newdata=x_test, type="class"))
 plot(nnet.perf,col=2)
 
+#Calculate the AUC value
+perf_AUC=performance(nnet.pred,"auc") 
+AUC=perf_AUC@y.values[[1]]
+AUC

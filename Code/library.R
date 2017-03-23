@@ -30,5 +30,5 @@ checkInstallLoad("rpart")
 checkInstallLoad("C50")
 checkInstallLoad("adabag")
 checkInstallLoad("Boruta")
-checkInstallLoad("ggplot2")
+
 print("Loading libraries complete.")
